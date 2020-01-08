@@ -1,0 +1,47 @@
+
+*
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+body{
+	margin: 0px;
+	border: 0px;
+}
+#header{
+	padding-top: 10px;
+	width: 100%;
+	height: 120px;
+	background: black;
+	color: white;
+	font-size: 18px;
+
+	
+}
+#sidebar{
+	width: 300px;
+	background: #27AE60;
+	float:left;
+
+}
+
+ul li{
+	padding: 20px;
+	border-bottom: 2px solid grey;
+}
+ul li:hover{
+	background: #c0392b;
+	color: white;
+}
+#Data{
+	height: 700px;
+	margin: 0;
+	background: #212F3C;
+	color: white;
+	font-family: Helvetica;
+	font-size: 25px;
+	padding: 5px;
+	text-align: left;
+
+}

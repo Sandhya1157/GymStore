@@ -1,0 +1,80 @@
+html,body{
+	height: 100%;
+}
+#sidebar{
+	height: 100%;
+	background-color: #27AE60;
+}
+#sidebar:before {
+	content: 'Please open in desktop';
+	display: block;
+}
+#sidebar ul {
+	display: none;
+	padding: 0;
+}
+#sidebar ul li{
+	padding: 20px;
+	border-bottom: 2px solid grey;
+	color: #000;
+	list-style: none;
+}
+#sidebar ul li:hover{
+	background: #c0392b;
+	color: #fff;
+}
+#data {
+	display: none;
+	float: right;
+}
+
+#addItem {
+	padding: 20px;
+}
+#addItem fieldset {
+	padding-left: 15px;
+	margin-bottom: 15px;
+}
+#addItem label{
+	width: 150px;
+}
+#addItem input, #addItem select{
+	min-width: 300px;
+	width: 80%;
+	max-width: 100%;
+	border: 1px solid #c0c0c0;
+	border-radius: 8px;
+	min-height: 40px;
+	padding: 5px 8px;
+	line-height: 1;
+}
+
+@media (min-width: 576px){
+}
+@media (min-width: 768px){
+}
+@media (min-width: 998px){
+	#sidebar{
+		width: 20%;
+		float: left;
+	}
+	#sidebar:before {
+		content: '';
+		display: none;
+	}
+	#sidebar ul {
+		display: block;
+	}
+	#sidebar ul li {
+		padding: 20px;
+		border-bottom: 2px solid grey;
+		color: #000;
+		list-style: none;
+	}
+	#data {
+		width: 80%;
+		display: block;
+	}
+}
+@media (min-width: 1200px){
+}
